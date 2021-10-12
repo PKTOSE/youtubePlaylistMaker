@@ -33,7 +33,7 @@ song.txt 파일에 '제목 - 가수'(원하는 검색어)와 같이 저장해두
 
 ## client_secret_file.json
  사용시 다른 .py와 같은 저장경로에 client_secret_file.json 가 있어야합니다. 
- 이 파일은 console.cloud.google.com/apis/ 에서 Youtube Data API의 "API 및 서비스", "OAuth 2.0 클라이언트 ID"에서 받을 수 있습니다.
+ 이 파일은 https://console.cloud.google.com/apis/dashboard 에서 Youtube Data API의 "API 및 서비스", "OAuth 2.0 클라이언트 ID"에서 받을 수 있습니다.
  이 파일의 이름을 'client_secret_file.json'으로 해주시기 바랍니다.
 
 ## API 
