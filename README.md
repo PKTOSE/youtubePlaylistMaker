@@ -4,7 +4,7 @@ song.txt 파일에 '제목 - 가수'(원하는 검색어)와 같이 저장해두
 
 ## search.py
 현재 다운로드 받게 되면 yt_search.py를 사용하도록 되어 있습니다.
-이는 Youtube Data API를 사용시 검색만으로 무료 사용량을 너무 많이 잡아먹게 되어 검색은 Youtube API를 사용하지 않는 방향으로 작성하였습니다.
+이는 Youtube Data API를 사용시 검색만으로 무료 사용량을 너무 많이 차지하여 검색은 Youtube API를 사용하지 않는 방향으로 작성하였습니다.
 만약 이를 원하지 않고 Youtube Data API의 사용을 원하신다면 
   ```python
   for i in songs:
@@ -42,3 +42,6 @@ song.txt 파일에 '제목 - 가수'(원하는 검색어)와 같이 저장해두
 pip install youtube-search
 ```
 로 설치하실 수 있습니다.
+
+### Youtube Data API (v3) cost
+https://developers.google.com/youtube/v3/determine_quota_cost?hl=en
