@@ -29,7 +29,7 @@ song.txt 파일에 '제목 - 가수'(원하는 검색어)와 같이 저장해두
    122  videoId=videoIds
    133  print('Added' if success else 'Error', videoIds)
  ```
- 위의 videoIds -> videoIds[0] 로 비꿔서 사용해야합니다.
+ 위의 videoIds -> videoIds[0] 로 바꿔서 사용해야합니다.
 
 ## client_secret_file.json
  사용시 다른 .py와 같은 저장경로에 client_secret_file.json 가 있어야합니다. 
