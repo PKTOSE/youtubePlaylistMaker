@@ -21,7 +21,6 @@ song.txt 파일에 '제목 - 가수'(원하는 검색어)와 같이 저장해두
   for i in songs:
         title = i # using search.py (Youtube API)
         songs_links.append(search.youtube_search(title))
-        songs_links.append(yt_search.yt_search(title))
         print(i + ' is included!, id : ' + id)
    ```
  또한,
