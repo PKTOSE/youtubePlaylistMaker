@@ -25,8 +25,8 @@ song.txt 파일에 '제목 - 가수'(원하는 검색어)와 같이 저장해두
         print(i + ' is included!, id : ' + id)
    ```
  또한,```python
-       122                        videoId=videoIds
-       133        print('Added' if success else 'Error', videoIds)
+       122  videoId=videoIds
+       133  print('Added' if success else 'Error', videoIds)
        ```
  위의 videoIds -> videoIds[0] 로 비꿔서 사용해야합니다.
 
@@ -35,7 +35,7 @@ song.txt 파일에 '제목 - 가수'(원하는 검색어)와 같이 저장해두
  이 파일은 console.cloud.google.com/apis/ 의 주소에서 Youtube Data API의 "API 및 서비스", "OAuth 2.0 클라이언트 ID"에서 받을 수 있습니다.
  이 파일의 이름을 'client_secret_file.json'으로 해주시기 바랍니다.
 
-### API 
+## API 
 기본적으로 Youtube Data API를 사용하고 있으며, 검색시 youtube-search 2.1.0을 사용합니다.
 ```
 pip install youtube-search
