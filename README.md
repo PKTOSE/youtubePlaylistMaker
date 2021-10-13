@@ -43,4 +43,4 @@ pip install youtube-search
 로 설치하실 수 있습니다.
 
 ### Youtube Data API (v3) cost
-https://developers.google.com/youtube/v3/determine_quota_cost?hl=en
+[비용계산](https://developers.google.com/youtube/v3/determine_quota_cost?hl=en)
