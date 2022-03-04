@@ -42,5 +42,11 @@ pip install youtube-search
 ```
 로 설치하실 수 있습니다.
 
+## pip install 
+```
+pip install -r requirements.txt
+```
+위의 명령어를 통해 필요한 패키지들을 한번에 설치할 수 있습니다.
+
 ### Youtube Data API (v3) cost
 [비용계산](https://developers.google.com/youtube/v3/determine_quota_cost?hl=en)
