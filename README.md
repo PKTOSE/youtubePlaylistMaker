@@ -1,4 +1,4 @@
-# YoutubePlaylistMaker
+# YoutubePlaylistMaker 유튜브 플레이리스트
 
 song.txt 파일에 '제목 - 가수'(원하는 검색어)와 같이 저장해두고 playlistmaker.py를 실행하면 됩니다.
 
