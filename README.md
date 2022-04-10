@@ -1,4 +1,5 @@
 # YoutubePlaylistMaker 유튜브 플레이리스트
+자신의 유튜브 계정에 재생목록을 자동으로 만들어줍니다. 텍스트 파일에 있는 검색어를 줄단위로 받아서 검색시 최상단의 영상을 재생목록에 추가합니다.
 
 song.txt 파일에 '제목 - 가수'(원하는 검색어)와 같이 저장해두고 playlistmaker.py를 실행하면 됩니다.
 
@@ -50,3 +51,6 @@ pip install -r requirements.txt
 
 ### Youtube Data API (v3) cost
 [비용계산](https://developers.google.com/youtube/v3/determine_quota_cost?hl=en)
+
+### Python Ver
+python 3.9.4를 기준으로 작성되었습니다.
