@@ -97,7 +97,7 @@ def makeplaylist():
         body=dict(
             snippet=dict(
                 title=(str(playlist_title) + ' M'),
-                description=str("%s 플레이리스트" % playlist_title)
+                description=str("%s 뫄래방 플레이리스트" % playlist_title)
             ),
             status=dict(
                 privacyStatus="private"  # public, unlisted, private
